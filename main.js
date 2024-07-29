@@ -11,4 +11,15 @@
     }
 
    });
+   
+   
+   let selectTag = document.getElementById('select');
+  
+  
+   function navigateToLink(selectElement) {
+            var url = selectElement.value;
+            if (url) {
+                window.open(url, '_blank');
+            }
+        }
   
